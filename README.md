@@ -165,8 +165,49 @@ if response:
 ---
 
 #### **API2.使用比较分析 5%**
+- ##### 腾讯的图像主体检测api（图像识别中的图片智能裁剪）
+- **输入**
+```
+https://tiia.tencentcloudapi.com/?Action=CropImage
+&ImageUrl=https://test.jpg
+&Width=https://test.jpg
+&Height=https://test.jpg
+&<公共请求参数>
+```
+- **输出**
+```
+{
+  "Response": {
+    "X": 0,
+    "Y": 110,
+    "Width": 1100,
+    "Height": 880,
+    "OriginalWidth": 1100,
+    "OriginalHeight": 1390,
+    "CropResult": 0,
+    "RequestId": "bfd478e1-5c94-4e37-ad22-4a5224a09492"
+  }
+}
+```
+#### 使用百度API进行图片裁剪：
+![百度api](https://upload-images.jianshu.io/upload_images/9776460-1ed830b9ae4b9175.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-使用比较分析：在PRD文件中是否有说明且提供连结证据，所使用的API是查找过最适用的（主要竞争者无或比较次），如考量其成熟度丶性价比丶等等
+#### 使用腾讯API进行图片裁剪：
+![腾讯api](https://upload-images.jianshu.io/upload_images/9776460-8f3925baa5e9f5bc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- **总结：同一图片，使用百度的图像主题检测api裁剪出来的部分居中，比较腾讯api裁出的主体部分背景更加少，更精确定位并裁出主体部分。**
+
+---
+
+
+|对比项|腾讯图片智能裁剪API|百度图像主体检测API|
+|:-:|:-:|:-:|
+|成熟度|文档的代码格式多样，但是许久未更新，有些代码版本已经老旧|文档清晰且详细，并含多种类型代码|
+|精确度|识别裁剪的主体部分稍有偏差|识别裁剪出来的主体部分较精确|
+|性价比|0 - 1000千次/月，2元/千次	|500次/日免费，免费额度用尽后开始计费，调用失败不计费|
+
+- **总结：综上比较，从成熟度、精确度以及性价比方面综合考量，选择使用百度的图像主体检测API。**
+
 
 #### **API3.使用后风险报告 5%**
 
