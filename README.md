@@ -33,3 +33,145 @@
 - 图像主体检测
 - 图像风格转换
 - 图像对比度增强
+
+
+### **原型 20%**
+
+#### **原型1.交互及界面设计 5%**
+
+交互及界面设计：在PRD文件中是否有说明且原型是否有做到：交互及界面设计的某个核心交互环节使用了人工智能的加值
+
+#### **原型2.信息设计 5%**
+
+信息设计：在PRD文件中是否有说明且原型是否有做到：信息设计的某个核心信息或设计使用了人工智能的加值
+
+#### **原型3.原型文档 5%**
+
+原型文档：多少程度上有提供MVP可交互的原型文档，供它人在Github上下载使用
+
+#### **原型4.口头操作说明 5%**
+
+口头操作说明：多少程度上在2-3分钟时间限制内，对听众留下了「的确这是个可行丶可用的人工智能加值产品」的印象
+
+### **API 产品使用关键AI或机器学习之API的输出入展示 15%**
+
+#### **API1.使用水平 5%**
+- #####图像主体检测代码示例
+- **输入**
+```
+import base64
+
+'''
+图像主体检测
+'''
+
+request_url = "https://aip.baidubce.com/rest/2.0/image-classify/v1/object_detect"
+# 二进制方式打开图片文件
+f = open('[本地文件]', 'rb')
+img = base64.b64encode(f.read())
+
+params = {"image":img,"with_face":1}
+access_token = '[调用鉴权接口获取的token]'
+request_url = request_url + "?access_token=" + access_token
+headers = {'content-type': 'application/x-www-form-urlencoded'}
+response = requests.post(request_url, data=params, headers=headers)
+if response:
+    print (response.json())
+```
+- **输出**
+```
+HTTP/1.1 200 OK
+x-bce-request-id: 73c4e74c-3101-4a00-bf44-fe246959c05e
+Cache-Control: no-cache
+Server: BWS
+Date: Tue, 18 Oct 2016 02:21:01 GMT
+Content-Type: application/json;charset=UTF-8
+{
+  "log_id": 895582300,
+  "result": {
+    "width": 486,
+    "top": 76,
+    "left": 134,
+    "height": 394
+  }
+}
+```
+---
+- #####图像效果增强代码示例
+- **输入**
+```
+# encoding:utf-8
+
+import requests
+import base64
+
+'''
+图像风格转换
+'''
+
+request_url = "https://aip.baidubce.com/rest/2.0/image-process/v1/style_trans"
+# 二进制方式打开图片文件
+f = open('[本地文件]', 'rb')
+img = base64.b64encode(f.read())
+
+params = {"image":img}
+access_token = '[调用鉴权接口获取的token]'
+request_url = request_url + "?access_token=" + access_token
+headers = {'content-type': 'application/x-www-form-urlencoded'}
+response = requests.post(request_url, data=params, headers=headers)
+if response:
+    print (response.json())
+```
+- **输出**
+```
+{
+	"log_id": "6876747463538438254",
+	"image": "处理后图片的Base64编码"
+}
+```
+---
+- #####图像对比度增强代码示例
+- **输入**
+```
+# encoding:utf-8
+
+import requests
+import base64
+
+'''
+图像对比度增强
+'''
+
+request_url = "https://aip.baidubce.com/rest/2.0/image-process/v1/contrast_enhance"
+# 二进制方式打开图片文件
+f = open('[本地文件]', 'rb')
+img = base64.b64encode(f.read())
+
+params = {"image":img}
+access_token = '[调用鉴权接口获取的token]'
+request_url = request_url + "?access_token=" + access_token
+headers = {'content-type': 'application/x-www-form-urlencoded'}
+response = requests.post(request_url, data=params, headers=headers)
+if response:
+    print (response.json())
+```
+- **输出**
+```
+{
+    "log_id":739539874,
+    "image":"处理后图片的Base64编码"
+}
+```
+---
+
+#### **API2.使用比较分析 5%**
+
+使用比较分析：在PRD文件中是否有说明且提供连结证据，所使用的API是查找过最适用的（主要竞争者无或比较次），如考量其成熟度丶性价比丶等等
+
+#### **API3.使用后风险报告 5%**
+
+使用后风险报告：在PRD文件中是否有说明且提供连结证据，所使用的API类别的现在及未来发展性，如API市场竞争程度丶输入输出限制丶定价丶及可替代的程序库（改用自己开发的代码及数据库而不用API）等等
+
+#### **API4.加分项 3%**
+
+使用复杂度：用了2个以上[机器学习](http://e.nfu.edu.cn/mod/page/view.php?id=1135 "机器学习")与人工智能的API之输入及输出
