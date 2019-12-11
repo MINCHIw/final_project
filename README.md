@@ -14,7 +14,7 @@
 
 ---
 
-## **PRD 价值主张设计**
+## **一、PRD 价值主张设计**
 
 ### **PRD1.加值宣言**
 
@@ -49,36 +49,44 @@
 - 图像对比度增强
 
 
-## **原型**
-#### **原型源文件**[下载地址](https://github.com/MINCHIw/prototype)
+## **二、原型**
+#### **（一）原型源文件**[下载地址](https://github.com/MINCHIw/prototype)
 
-#### **产品原型图**
-- **首页**
+#### **（二）**[Axure高保真原型](http://nfunm093.gitee.io/prototype)
+
+#### **（三）产品原型图**
+#### **1. 首页**
+- **首页界面**
 
 ![首页](https://upload-images.jianshu.io/upload_images/9776460-15b56d7c6ff7942c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+---
 
-- **取材界面**
+#### **2. 取材界面**
+
+- **拍照页面**
 
 ![拍照页](https://upload-images.jianshu.io/upload_images/9776460-c9e15cbd1e6e6cbd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- **上传照片页**
+
 ![上传照片页](https://upload-images.jianshu.io/upload_images/9776460-0b3a31c438709f50.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- **处理图片界面**
+
 ![处理图片界面](https://upload-images.jianshu.io/upload_images/9776460-046b408d18a5d5bc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-- **我的**
+---
+
+#### **3. 我的**
 
 ![我的](https://upload-images.jianshu.io/upload_images/9776460-2cf14e54732ca59c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-
-### **口头操作说明**
-
-- 用户可以在**“取材”**界面使用照相机，拍摄日常生活中的图片，软件会检测裁剪出图像主题区域；
-- 接着用户可以将刚才裁剪出来的主题区域转换成卡通画或者素描的风格，这样就得到了装饰手账的一个材料啦。
-- 其次，如果用户需要对图片的对比度进行调整，也可以通过**“调整对比度”**进行相应的调整。
-- 在首页可以找到自己平时创建的手账以及素材库，还可以在社区内与其他用户交流分享各自的素材。
-- 这个手账中的元素可以由用户自己拍摄，制作属于自己的特别手账，记下用户生活沿路的风景事物，便于用户在未来的某日翻看手账时，也能通过手账中的特别元素与记录的语句，回忆起当时的感受。
+---
 
 
-## **API 产品使用关键AI或机器学习之API的输出入展示**
+
+## **三、API 产品使用关键AI或机器学习之API的输出入展示**
 
 ### **API1.使用水平**
 - ##### 图像主体检测代码示例
