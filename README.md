@@ -50,25 +50,27 @@
 
 
 ## **原型**
+#### **产品原型图**
+- **首页**
+![首页](https://upload-images.jianshu.io/upload_images/9776460-15b56d7c6ff7942c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-### **原型1.交互及界面设计**
+- **取材界面**
 
-交互及界面设计：在PRD文件中是否有说明且原型是否有做到：交互及界面设计的某个核心交互环节使用了人工智能的加值
+![拍照页](https://upload-images.jianshu.io/upload_images/9776460-c9e15cbd1e6e6cbd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![上传照片页](https://upload-images.jianshu.io/upload_images/9776460-0b3a31c438709f50.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![处理图片界面](https://upload-images.jianshu.io/upload_images/9776460-046b408d18a5d5bc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-### **原型2.信息设计**
+- **我的**
+![我的](https://upload-images.jianshu.io/upload_images/9776460-2cf14e54732ca59c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-信息设计：在PRD文件中是否有说明且原型是否有做到：信息设计的某个核心信息或设计使用了人工智能的加值
 
-### **原型3.原型文档**
-
-原型文档：多少程度上有提供MVP可交互的原型文档，供它人在Github上下载使用
-
-### **原型4.口头操作说明**
+### **口头操作说明**
 
 - 用户可以在**“取材”**界面使用照相机，拍摄日常生活中的图片，软件会检测裁剪出图像主题区域；
 - 接着用户可以将刚才裁剪出来的主题区域转换成卡通画或者素描的风格，这样就得到了装饰手账的一个材料啦。
 - 其次，如果用户需要对图片的对比度进行调整，也可以通过**“调整对比度”**进行相应的调整。
 - 这个手账中的元素可以由用户自己拍摄，制作属于自己的特别手账，记下用户生活沿路的风景事物，便于用户在未来的某日翻看手账时，也能通过手账中的特别元素与记录的语句，回忆起当时的感受。
+
 
 
 ## **API 产品使用关键AI或机器学习之API的输出入展示**
