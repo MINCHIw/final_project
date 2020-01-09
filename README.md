@@ -91,7 +91,7 @@
 
 #### **（五）口头操作说明**
 
-- 用户可以在**“取材”**界面使用照相机，拍摄日常生活中的图片，软件会检测裁剪出图像主题区域；
+- 用户可以在“取材”界面使用照相机，拍摄日常生活中的图片，软件会检测裁剪出图像主题区域；
 - 接着用户可以将刚才裁剪出来的主题区域转换成卡通画或者素描的风格，这样就得到了装饰手账的一个材料啦。
 - 其次，如果用户需要对图片的对比度进行调整，也可以通过**“调整对比度”**进行相应的调整。
 - 在首页可以找到自己平时创建的手账以及素材库，还可以在社区内与其他用户交流分享各自的素材。
@@ -124,7 +124,7 @@ if response:
     print (response.json())
 ```
 - **输出**
-```
+``` python
 HTTP/1.1 200 OK
 x-bce-request-id: 73c4e74c-3101-4a00-bf44-fe246959c05e
 Cache-Control: no-cache
@@ -144,7 +144,7 @@ Content-Type: application/json;charset=UTF-8
 ---
 - ##### 图像效果增强代码示例
 - **输入**
-```
+``` python
 # encoding:utf-8
 
 import requests
@@ -168,7 +168,7 @@ if response:
     print (response.json())
 ```
 - **输出**
-```
+``` python
 {
 	"log_id": "6876747463538438254",
 	"image": "处理后图片的Base64编码"
@@ -177,7 +177,7 @@ if response:
 ---
 - ##### 图像对比度增强代码示例
 - **输入**
-```
+``` python
 # encoding:utf-8
 
 import requests
@@ -201,7 +201,7 @@ if response:
     print (response.json())
 ```
 - **输出**
-```
+``` python
 {
     "log_id":739539874,
     "image":"处理后图片的Base64编码"
@@ -212,7 +212,7 @@ if response:
 ### **API2.使用比较分析**
 - ##### 腾讯的图像主体检测api（图像识别中的图片智能裁剪）
 - **输入**
-```
+``` python
 https://tiia.tencentcloudapi.com/?Action=CropImage
 &ImageUrl=https://test.jpg
 &Width=https://test.jpg
@@ -220,7 +220,7 @@ https://tiia.tencentcloudapi.com/?Action=CropImage
 &<公共请求参数>
 ```
 - **输出**
-```
+``` python
 {
   "Response": {
     "X": 0,
