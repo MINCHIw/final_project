@@ -84,7 +84,7 @@
 
 ![转换卡通风的界面](https://upload-images.jianshu.io/upload_images/9776460-4fadac9f44533cbe.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![人物二次元转换界面](https://upload-images.jianshu.io/upload_images/9776460-3bd34da515f6830f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![转换成人物二次元的界面](https://upload-images.jianshu.io/upload_images/9776460-6e636c81c33e7b6b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 ---
