@@ -55,9 +55,10 @@
 
 
 ## **二、原型**
-#### **（一）原型源文件**[下载地址](https://github.com/MINCHIw/prototype)
+#### **（一）原型源文件**下载地址：[https://gitee.com/NFUNM093/prototype](https://gitee.com/NFUNM093/prototype)
 
-#### **（二）**[Axure高保真原型](http://nfunm093.gitee.io/prototype)
+#### **（二）**[Axure高保真原型](http://nfunm093.gitee.io/prototype/#g=1&p=%E9%A6%96%E9%A1%B5)
+
 
 #### **（三）产品原型图**
 #### **1. 首页**
