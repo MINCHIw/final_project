@@ -81,7 +81,8 @@
 
 - **处理图片界面**
 
-![卡通风转换界面](https://upload-images.jianshu.io/upload_images/9776460-d5c891ba6016b74b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![转换卡通风界面](https://upload-images.jianshu.io/upload_images/9776460-60ce9956083e130b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ![人物二次元转换界面](https://upload-images.jianshu.io/upload_images/9776460-38a3c4d1cc5cc5ed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
