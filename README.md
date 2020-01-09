@@ -81,10 +81,10 @@
 
 - **处理图片界面**
 
-![转换卡通风界面](https://upload-images.jianshu.io/upload_images/9776460-60ce9956083e130b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![转换卡通风的界面](https://upload-images.jianshu.io/upload_images/9776460-4fadac9f44533cbe.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+![人物二次元转换界面](https://upload-images.jianshu.io/upload_images/9776460-3bd34da515f6830f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![人物二次元转换界面](https://upload-images.jianshu.io/upload_images/9776460-38a3c4d1cc5cc5ed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ---
 
