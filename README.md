@@ -24,7 +24,7 @@
 
 - 图像对比度增强 API：用户如果对图片的对比度不满意，可以利用此进行调整。
 
-- 人像动漫化 API：用户可以上传人物相关的图片，获得动漫二次元人像效果的人物照片，并将其化为手账元素使用到其中。
+- 人像动漫化 API：运用对抗生成网络技术，结合人脸检测、头发分割、人像分割等技术，为用户量身定制千人千面的二次元动漫形象，用户可以上传人物相关的图片，获得动漫二次元人像效果的人物照片，并将其化为手账元素使用到其中。
 
 
 ### **PRD2.核心价值**
@@ -64,8 +64,16 @@
 #### **（三）产品原型图**
 #### **1. 首页**
 - **首页界面**
-
 ![首页](https://upload-images.jianshu.io/upload_images/9776460-15b56d7c6ff7942c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- **手账设置界面**
+![手账设置界面](https://upload-images.jianshu.io/upload_images/9776460-b81c4a8c136121f3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- **制作手账界面**
+![制作手账界面](https://upload-images.jianshu.io/upload_images/9776460-446513da8392473a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- **素材库界面**
+![素材库界面](https://upload-images.jianshu.io/upload_images/9776460-3c64620e53d2ff00.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ---
 
