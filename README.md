@@ -71,7 +71,8 @@
 
 - **拍照页面**
 
-![拍照页](https://upload-images.jianshu.io/upload_images/9776460-c9e15cbd1e6e6cbd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![拍照界面](https://upload-images.jianshu.io/upload_images/9776460-0ef9585290507f72.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 - **上传照片页**
 
@@ -79,7 +80,9 @@
 
 - **处理图片界面**
 
-![处理图片界面](https://upload-images.jianshu.io/upload_images/9776460-046b408d18a5d5bc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![卡通风转换界面](https://upload-images.jianshu.io/upload_images/9776460-d5c891ba6016b74b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![人物二次元转换界面](https://upload-images.jianshu.io/upload_images/9776460-38a3c4d1cc5cc5ed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ---
 
